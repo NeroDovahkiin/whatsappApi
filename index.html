@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp message</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="dPrincipal" class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2><span><img src="http://pngimg.com/uploads/whatsapp/whatsapp_PNG10.png"></span>WHATSAPP API</h2>
+            </div>
+        </div>
+        <div id="inputs" class="row col-11 col-sm-6">
+            <div class="col-12">
+                <label for="mensaje">Message</label>
+                <textarea id="mensaje" rows="6" cols="50" placeholder="Enter the message...">
+      </textarea>
+            </div>
+            <div class="col-12">
+                <div class="col-3" style="float:left">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="598" default>UY</option>
+                        <option value="54" default>AR</option>
+                        <option value="55" default>BR</option>
+                    </select>
+                </div>
+                <div class="col-9" style="float:right">
+                    <label for="number">Phone</label>
+                    <input type="number" name="number" id="number" min="0" placeholder="Enter the phone..." />
+                </div>
+            </div>
+            <br>
+            <div class="col-12">
+                <div class="col-sm-6" style="float:left">
+                    <button id="send_message" class="button button1" style="width:100%">Send Message</button>
+                </div>
+                <div class="col-sm-6" style="float:left">
+                    <button class="button button3" id="ubicacion" style="width:100%">Ask for location</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="creditos">Nero ©</div>
+
+    <script type="application/javascript" src="js/script.js"></script>
+</body>
+
+</html>
