@@ -1,5 +1,5 @@
 document.querySelector("#send_message").addEventListener("click", function () {
-    let message = document.querySelector("#mensaje").value;
+    let message = document.querySelector("#message").value;
     let number = document.querySelector("#number").value;
     let prefix = document.getElementById("country").value;
 
@@ -14,7 +14,7 @@ document.querySelector("#send_message").addEventListener("click", function () {
 
 // location message
 document.querySelector("#ubicacion").addEventListener("click", function () {
-    let message = document.querySelector("#mensaje");
+    let message = document.querySelector("#message");
     let hora = new Date().getHours();
     let saludo = () => {
         if (hora >= 5 && hora < 12) {
